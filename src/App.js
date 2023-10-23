@@ -7,8 +7,20 @@ function App() {
     "Jekabs",
     "Logins",
     "Adrians"
-  ]
+  ];
+  const ratio = [
+    7,
+    43,
+    101
+  ];
 
+const helloJSX = allNames.map((name , index)=> {
+  return <Hello key={index} name={name} />;
+});
+
+const helloJSX = ratio.map((value, index)=> {
+  return <Hello key={index} value={value} />;
+});
 return (
   <>
   <Counter />

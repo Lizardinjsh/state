@@ -1,7 +1,9 @@
 import React, { useState } from "react";
 
 
-function Counter() {
+
+function Counter(props) {
+
   const [count, setCount] = useState(0);
   
   const [ratioChange, setRatioChange] = useState(1);
